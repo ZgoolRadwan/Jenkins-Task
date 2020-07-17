@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8
 EXPOSE 8080
-COPY target/devopstask.jar devopstask.jar
+ADD target/devopstask.jar devopstask.jar
 ENTRYPOINT ["java", "-jar","/devopstask.jar"]
