@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="jenkins-git-integration.war">
+    <root id="archive" name="DevOpsTask.war">
       <element id="artifact" artifact-name="DevOpsTask:war exploded" />
     </root>
   </artifact>
